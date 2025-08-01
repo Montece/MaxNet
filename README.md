@@ -1,2 +1,2 @@
 # MaxNet
-Messanger Max API wrapper for .NET
+.NET wrapper for messanger Max API
