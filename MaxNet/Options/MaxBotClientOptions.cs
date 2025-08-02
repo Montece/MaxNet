@@ -1,7 +1,13 @@
 ﻿namespace MaxNet.Options;
 
-public class MaxBotClientOptions
+// ReSharper disable once ConvertToPrimaryConstructor
+
+public sealed class MaxBotClientOptions
 {
-    public string BaseUrl { get; set; } = "https://api.max.ru";
-    public string ApiToken { get; set; } = null!;
+    public string ApiToken { get; set; }
+
+    public MaxBotClientOptions(string apiToken)
+    {
+        ApiToken = apiToken;
+    }
 }

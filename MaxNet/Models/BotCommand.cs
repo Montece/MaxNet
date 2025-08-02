@@ -1,12 +1,12 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
 
 namespace MaxNet.Models;
 
 public sealed class BotCommand
 {
-    [JsonPropertyName("name")]
+    [JsonProperty("name")]
     public required string Name { get; init; }
 
-    [JsonPropertyName("description")]
+    [JsonProperty("description")]
     public string? Description { get; init; }
 }

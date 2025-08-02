@@ -1,4 +1,4 @@
-﻿using MaxNet.Models;
+﻿using MaxNet.Results;
 
 namespace MaxNet;
 
