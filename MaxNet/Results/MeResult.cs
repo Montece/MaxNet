@@ -1,5 +1,4 @@
-﻿using MaxNet.Models;
-using Newtonsoft.Json;
+﻿using MaxNet.Models.Bots;
 
 namespace MaxNet.Results;
 

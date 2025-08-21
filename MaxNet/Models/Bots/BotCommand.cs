@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace MaxNet.Models;
+﻿namespace MaxNet.Models.Bots;
 
 public sealed class BotCommand
 {

@@ -1,8 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿namespace MaxNet.Models.Users;
 
-namespace MaxNet.Models;
-
-public sealed class User
+public record User
 {
     [JsonProperty("user_id")]
     public required long UserId { get; init; }

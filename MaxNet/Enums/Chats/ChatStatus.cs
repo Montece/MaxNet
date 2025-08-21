@@ -1,8 +1,7 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
+﻿using Newtonsoft.Json.Converters;
 using System.Runtime.Serialization;
 
-namespace MaxNet.Enums;
+namespace MaxNet.Enums.Chats;
 
 /// <summary>
 /// Статус чата

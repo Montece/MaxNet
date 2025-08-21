@@ -4,7 +4,7 @@
 
 public sealed class MaxBotClientOptions
 {
-    public string ApiToken { get; set; }
+    public string ApiToken { get; }
 
     public MaxBotClientOptions(string apiToken)
     {
